@@ -1,0 +1,80 @@
+root {
+    --primary-color: black;
+    --secondary-color: D8bfd8;
+    --tertiary-color:778899;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--primary-color);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+header {
+    padding: 20px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("../assets/images/header.jpeg");
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+    background-position: 80%;
+    z-index: 10000;
+}
+
+header h1 {
+    font-weight: bolder;
+    color: var(--secondary-color);
+}
+
+header a {
+    text-decoration: none;
+    align-items: left;
+    justify-content: space-between;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border: red;
+
+}
+.about-me img {
+    width: 200px;
+    height: auto;
+}
+
+.about-me p {
+    line-height: 1.5;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+}
+
+.bio p {
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
