@@ -1,7 +1,7 @@
 root {
-    --primary-color: black;
-    --secondary-color: D8bfd8;
-    --tertiary-color:778899;
+    --primary-color:
+    --secondary-color: 
+    --tertiary-color:
 }
 
 * {
@@ -11,70 +11,93 @@ root {
 }
 
 body {
-    color: var(--primary-color);
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 header {
-    padding: 20px 35px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-image: url("../assets/images/header.jpeg");
+    align-items: center;
     position: sticky;
     position: -webkit-sticky;
-    top: 0;
-    background-size: cover;
     background-position: 80%;
+    justify-content: space-between;
+    background-color: #2a607c;
+    color: white;
     z-index: 10000;
 }
 
 header h1 {
-    font-weight: bolder;
-    color: var(--secondary-color);
-}
-
-header a {
-    text-decoration: none;
-    align-items: left;
-    justify-content: space-between;
+    font-size: 35px;
+    padding: 10px;
 }
 
 header nav {
-    margin: 7px 0;
+    float: right;
+    margin: 15px 15px;
+    padding: 15px 15px;
 }
 
 header nav ul {
     display: flex;
-    flex: wrap;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
 }
 
-.about-me {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    border: red;
-
+header nav ul li {
+    display: inline-flex;
+    margin-left: 25px;
+    font-size: 30px;
+    font-weight: 400;
 }
-.about-me img {
+
+header nav ul li a {
+text-decoration: none;
+color: white;
+padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+    background-color: white;
+    color: #3eb5fa;
+    border-radius: 20px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+.hero {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/header.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.catagories {
+    width: 20%;
+    height: 100%;
+}
+
+.catagories img {
     width: 200px;
     height: auto;
+    margin-top: 20px;
+    border: 2px solid #3eb5fa;
+    border-radius: 35px;
+    padding: 15px;
+    background-color: #2a607c;
 }
 
-.about-me p {
-    line-height: 1.5;
-    width: 80%;
-    margin: 0 auto;
-    font-size: 20px;
-    text-align: left;
-}
-
-.bio p {
-    flex: 1;
-    flex-wrap: wrap;
-    align-items: flex-end;
+.catagories h2 {
+    padding: 25px;
+    text-align: end;
+    vertical-align: text-top;
+    border-radius: 30px;
 }
