@@ -19,9 +19,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    position: sticky;
-    position: -webkit-sticky;
-    background-position: 80%;
+    background-position: 100%;
     justify-content: space-between;
     background-color: #2a607c;
     color: white;
@@ -29,8 +27,8 @@ header {
 }
 
 header h1 {
-    font-size: 35px;
-    padding: 15px;
+    font-size: 30px;
+    margin-left: 15px;
 }
 
 header nav {
@@ -49,34 +47,32 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: white;
+    border-radius: 15px;
+    padding: 10px 10px;
 }
 
 header nav ul li a:hover {
-    background-color: white;
-    color: #3eb5fa;
-    border-radius: 20px;
-}
-
-footer {
-    align-items: center;
+    background-color: #3eb5fa;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 10px;
 }
 
 .hero {
-    height: 100px;
-    width: 100%;
-    margin-bottom: 5px;
+    height: 90px;
+    margin-bottom: 20px;
     background-image: url("../assets/images/header.jpeg");
-    background-size: cover;
-    background-position: center;
 }
 
-.hero-box {
-    padding: 7px 15px;
+.welcome {
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 25px 15px;
+    padding: 10px 10px;
+    border-radius: 15px;
     background-color: #3eb5fa;
-}
-
-.latin {
-    width: 20%;
 }
 
 .type {
@@ -89,7 +85,7 @@ footer {
     vertical-align: text-top;
     font-size: 30px;
     border-right: 5px solid #2a607c;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-right: 15px;
 }
 
@@ -173,6 +169,5 @@ footer {
 
 .flex-row {
     display: flex;
-    flex-wrap: wrap;
     margin-bottom: 20px;
 }
