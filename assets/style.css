@@ -1,7 +1,7 @@
 root {
-    --primary-color:
-    --secondary-color: 
-    --tertiary-color:
+    --primary-color: #2a607c;
+    --secondary-color:  #3eb5fa;
+    --tertiary-color: fffff;
 }
 
 * {
@@ -88,7 +88,7 @@ header nav ul li a:hover {
     display: flex;
 }
 
-.type img {
+.flex-row img {
     width: auto;
     height: 95px;
     margin: 10px;
@@ -102,12 +102,8 @@ header nav ul li a:hover {
     vertical-align: text-top;
     font-size: 30px;
     border-right: 5px solid #2a607c;
-    padding-left: 10px;
+    margin: 25px;
     padding-right: 15px;
-}
-
-.sub-b {
-    margin: 10px;
 }
 
 .text {
@@ -123,7 +119,8 @@ header nav ul li a:hover {
 .container-left {
     max-width: 200px;
     max-height: 900px;
-    padding-left: 20px;
+    padding-left: 5px;
+    padding-right: 10px;
 }
 
 .shell {
@@ -139,6 +136,7 @@ header nav ul li a:hover {
    justify-content: space-between;
    width: 1160px;
 }
+
 .projects {
     height: 200px;
 }
@@ -168,56 +166,26 @@ header nav ul li a:hover {
     align-items: center;
 }
 
-.img-1 {
-    background-image: url(./images/1.3.png); 
+.horiseon {
+    background-image: url("../assets/images/dream.jpeg");
 }
 
-.img-2 {
-    background-image: url(./images/1.2.png); 
-}
 
-.img-3 {
-    background-image: url(./images/1.1.png); 
-}
-
-.img-4 {
-    background-image: url(./images/1.5.png); 
-}
-
-.img-5 {
-    background-image: url(./images/1.4.png);
-}
 
 .details {
-    line-height: 2;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 5px 5px;
-    vertical-align: bottom;
-}
-
-.details h5 {
-    text-align: left;
-    justify-content: space-around;
-    margin-left: 5px;
-    text-decoration: none;
-}
-
-.details-b {
+    line-height: 1;
     display: flex;
     text-decoration-line: underline;
     text-decoration-color: #2a607c;
     text-decoration-thickness: 5px; 
-    padding-left: 2px;
-    align-items: center;
-    float: left;
+    align-content: center;
+    width: 300px;
 }
 
 .flex-row {
     display: flex;
-    margin: 15px 20px;
-    border-radius: 15px; /* remove this later and below */
+    margin: 30px 20px;
+    border-radius: 15px;
     background-color: orchid;
 }
 
