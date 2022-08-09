@@ -76,15 +76,6 @@ header nav ul li a:hover {
     background-color: #3eb5fa;
 }
 
-.flex-row img {
-    width: auto;
-    height: 95px;
-    margin: 10px;
-    padding: 5px 5px;
-    border-radius: 15px;
-    background-color: #3eb5fa;
-}
-
 .sub-heading {
     text-align: end;
     vertical-align: text-top;
@@ -94,18 +85,34 @@ header nav ul li a:hover {
     padding-right: 15px;
 }
 
+.sub-heading img {
+    width: auto;
+    height: 95px;
+    margin: 10px;
+    padding: 5px 5px;
+    border-radius: 15px;
+    background-color: #3eb5fa;
+}
+
+.text {
+    line-height: 2;
+    justify-content:center;
+    padding: 30px 20px 15px 5px;
+}
+
 .projects {
     height: 200px;
     width: 570px;
+    border: 2px solid #3eb5fa;
+    flex-flow: column wrap;
 }
 
 .horiseon {
     background-image: url("../assets/images/dream.jpeg");
 }
 
-.source {
-    line-height: 1;
-    display: flex;
+.source a li {
+    justify-content: space-evenly;
     text-decoration-line: underline;
     text-decoration-color: #2a607c;
     text-decoration-thickness: 5px;
@@ -117,4 +124,9 @@ header nav ul li a:hover {
     padding: 25px;
     border-radius: 15px;
     background-color: orchid;
+}
+
+.flex-item {
+    display: flex;
+    flex-wrap: wrap;
 }
