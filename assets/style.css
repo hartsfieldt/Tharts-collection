@@ -76,18 +76,6 @@ header nav ul li a:hover {
     background-color: #3eb5fa;
 }
 
-.block {
-    margin: 25px 15px;
-    padding: 10px 10px;
-    border-radius: 15px;
-    background-color: #3eb5fa;
-}
-
-.type {
-    margin: 25px;
-    display: flex;
-}
-
 .flex-row img {
     width: auto;
     height: 95px;
@@ -106,89 +94,27 @@ header nav ul li a:hover {
     padding-right: 15px;
 }
 
-.text {
-    line-height: 2;
-    justify-content: center;
-    padding: 20px;
-}
-
-.container-right {
-   min-width: 1200px;
-}
-
-.container-left {
-    max-width: 200px;
-    max-height: 900px;
-    padding-left: 5px;
-    padding-right: 10px;
-}
-
-.shell {
-    border: 5px solid #3eb5fa;
-    background-color: pink;
-    margin-bottom: 15px;
-    display: flex;
-}
-
-.section-a {
-   display: flex;
-   flex-basis: 1 1;
-   justify-content: space-between;
-   width: 1160px;
-}
-
 .projects {
     height: 200px;
-}
-
-.project {
-    height: 200px;
     width: 570px;
-}
-
-.container p {
-    font-style: italic;
-    font-size: 13px;
-}
-
-.highlight {
-    width: 1200px;
-}
-
-.container {
-    border: 2px solid #3eb5fa;
-    background-color: #3eb5fa;
-    margin: 20px;
-    margin-left: 0;
-    line-height: 1;
-    width: 100px;
-    height: 40px;
-    align-items: center;
 }
 
 .horiseon {
     background-image: url("../assets/images/dream.jpeg");
 }
 
-
-
-.details {
+.source {
     line-height: 1;
     display: flex;
     text-decoration-line: underline;
     text-decoration-color: #2a607c;
-    text-decoration-thickness: 5px; 
-    align-content: center;
-    width: 300px;
+    text-decoration-thickness: 5px;
 }
 
 .flex-row {
     display: flex;
     margin: 30px 20px;
+    padding: 25px;
     border-radius: 15px;
     background-color: orchid;
-}
-
-.wrap { /* remove this later and below */
-    display: flex;
 }
