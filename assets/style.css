@@ -360,5 +360,10 @@ footer h2 {
     margin: 20px;
     max-width: 325px;
 }
+
+.horiseon {
+    background-image: url(./images/horiseon2.png);
+}
+
 }
 
