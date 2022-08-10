@@ -8,11 +8,11 @@ that mirrors the provided criteria and is responsive to various screen viewport'
 
 ## Requirements
 
--Developers name, photo avatar, links to selected navagation pages and how to contact me.
--Created a UI list that scrolls to the coresponding section.
--First application feature that is larger than the subsequent projects.
--Linked projects to deployed application.
--Created a responsive layout that adapts to various screen viewports.
+- Developers name, photo avatar, links to selected navagation pages and how to contact me.
+- Created a UI list that scrolls to the coresponding section.
+- First application feature that is larger than the subsequent projects.
+- Linked projects to deployed application.
+- Created a responsive layout that adapts to various screen viewports.
 
 ## Website
 
