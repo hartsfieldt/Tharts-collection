@@ -248,7 +248,7 @@ footer h2 {
 }
 
 .main-body {
-    font-size: smaller;
+    font-size: 26px;
 }
 
 .heading {
@@ -299,9 +299,9 @@ footer h2 {
 
 @media screen and (max-width: 980px) {
 .about p {
-    text-align: left;
-    justify-content: left;
-    width: 90%;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
     font-size: 24px;
     margin: 20px;
     width: 750px;
@@ -314,15 +314,50 @@ footer h2 {
     justify-content: center;
     width: 90%;
 }
-
+.card-container {
+    width: 550px;
+}
 .card-feature {
-     max-width: 450px;
+     max-width: 550px;
 }
 }
 
 @media screen and (max-width: 768px) {
+header h1 {
+font-size: larger;
+}
+
+header nav ul {
+    margin-top: 20px;
+    width: 60%;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    font-size: 30px;
+    }
+
+.heading-max {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 30px;
+}
+
 .about p {
-    text-align: left;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 18px;
+    margin: 10px;
+    max-width: 500px;
+}
+
+.about p {
+    text-align: center;
     justify-content: center;
     width: 90%;
     font-size: 15px;
@@ -346,24 +381,83 @@ footer h2 {
     max-width: 250px;
 }
 
+.container h3 {
+    font-size: 15px;
+}
+
+.accessory {
+    font-size: 15px;
+}
+
 .source {
     flex-direction: column;
 }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 575px)  {
+header nav ul {
+    margin-top: 20px;
+    width: 60%;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    font-size: 30px;
+}
+
+.heading-max {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 30px;
+}
+
 .about p {
     text-align: left;
-    justify-content: center;
-    width: 90%;
+    justify-content: left;
+    width: 80%;
     font-size: 12px;
-    margin: 20px;
-    max-width: 325px;
+    margin: 10px;
+    max-width: 220px;
 }
 
 .horiseon {
     background-image: url(./images/horiseon2.png);
 }
-
+.container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    width: 220px;
 }
 
+.card-container {
+    width: 220px;
+}
+
+.card-feature {
+    max-width: 220px;
+}
+
+.project-name {
+    font-size: 12px;
+}
+
+footer h2 {
+    text-align: center;
+    width: 60%;
+}
+}
+
+@media screen and (max-width: 360px) {
+header nav ul {
+    margin-top: 20px;
+    width: 40%;
+    justify-content: center;
+}
+
+}
