@@ -1,5 +1,7 @@
 # Personal Portfolio
 
+<img src="./assets/images/screenshot.png" alt="screenshot of the website" height="300px"/>
+
 ## Purpose
 
 The purpose of this assignment is to create a personal portfolio utilizing skills learned with-in
@@ -15,6 +17,7 @@ that mirrors the provided criteria and is responsive to various screen viewport'
 - Created a responsive layout that adapts to various screen viewports.
 
 ## Website
+
 https://hartsfieldt.github.io/Tharts-collection/
 
 ## Git Hub
