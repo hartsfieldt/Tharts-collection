@@ -264,9 +264,9 @@ footer h2 {
 }
 
 .about p {
-    text-align: left;
+    text-align: center;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     font-size: 24px;
     margin: 20px;
     width: 800px;
@@ -278,6 +278,10 @@ footer h2 {
     margin-top: 20px;
     justify-content: center;
     width: 100%;
+}
+
+.accessory {
+    font-size: 15px;
 }
 
 .card-feature {
@@ -298,14 +302,27 @@ footer h2 {
 }
 
 @media screen and (max-width: 980px) {
+header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+}
+
+header h1 {
+    width: 70%;
+}
+
+header nav ul li {
+    width: 80%;
+}
+
 .about p {
     text-align: center;
     justify-content: center;
-    width: 100%;
     font-size: 24px;
     margin: 20px;
-    width: 750px;
-    }
+    width: 650px;
+}
 
 .container {
     flex-direction: column;
@@ -320,23 +337,39 @@ footer h2 {
 .card-feature {
      max-width: 550px;
 }
+
+footer h2 {
+    text-align: center;
+    width: 90%;
+}
+
+footer {
+    width: 100%;
+}
+
 }
 
 @media screen and (max-width: 768px) {
+header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+}
+
 header h1 {
 font-size: larger;
 }
 
 header nav ul {
     margin-top: 20px;
-    width: 60%;
+    width: 90%;
     justify-content: center;
 }
 
 .heading {
     text-align: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     font-size: 30px;
     }
 
@@ -350,19 +383,10 @@ header nav ul {
 .about p {
     text-align: center;
     justify-content: center;
-    width: 100%;
+    width: 800px;
     font-size: 18px;
     margin: 10px;
-    max-width: 500px;
-}
-
-.about p {
-    text-align: center;
-    justify-content: center;
-    width: 90%;
-    font-size: 15px;
-    margin: 20px;
-    width: 400px;
+    width: 700px;
 }
 
 .container {
@@ -374,11 +398,11 @@ header nav ul {
 }
 
 .card-container {
-    width: 250px;
+    width: 450px;
 }
 
 .card-feature {
-    max-width: 250px;
+    max-width: 450px;
 }
 
 .container h3 {
@@ -392,6 +416,7 @@ header nav ul {
 .source {
     flex-direction: column;
 }
+
 }
 
 @media screen and (max-width: 575px)  {
@@ -404,7 +429,7 @@ header nav ul {
 .heading {
     text-align: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     font-size: 30px;
 }
 
@@ -416,12 +441,11 @@ header nav ul {
 }
 
 .about p {
-    text-align: left;
-    justify-content: left;
-    width: 80%;
-    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    font-size: 17px;
     margin: 10px;
-    max-width: 220px;
+    width: 240px;
 }
 
 .horiseon {
@@ -450,7 +474,9 @@ header nav ul {
 footer h2 {
     text-align: center;
     width: 60%;
+    font-size: 20px;
 }
+
 }
 
 @media screen and (max-width: 360px) {
