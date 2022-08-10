@@ -18,6 +18,10 @@ that mirrors the provided criteria and is responsive to various screen viewport'
 
 https://hartsfieldt.github.io/Tharts-collection/
 
+## Screenshots
+
+<iframe src="https://drive.google.com/file/d/1aHPgEEbYBqIAnqPsRTv31WfgUvz7w-Ny/preview" width="640" height="480"></iframe>
+
 ## Contribution
 
 Made with ❤️ by Teresa Hartsfield
