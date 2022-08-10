@@ -15,12 +15,15 @@ that mirrors the provided criteria and is responsive to various screen viewport'
 - Created a responsive layout that adapts to various screen viewports.
 
 ## Website
-
 https://hartsfieldt.github.io/Tharts-collection/
+
+## Git Hub
+
+https://github.com/hartsfieldt/Tharts-collection
 
 ## Screenshots
 
-<iframe src="https://drive.google.com/file/d/1aHPgEEbYBqIAnqPsRTv31WfgUvz7w-Ny/preview" width="640" height="480"></iframe>
+https://drive.google.com/file/d/1aHPgEEbYBqIAnqPsRTv31WfgUvz7w-Ny/preview
 
 ## Contribution
 
