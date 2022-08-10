@@ -113,6 +113,10 @@ a:link {
     color: var(--tertiary-color);
 }
 
+.highlight {
+   background-color: var(--primary-color);
+}
+
 .main-body {
     padding: 20px;
 }
@@ -130,31 +134,21 @@ a:link {
     color: var(--primary-color);
     padding-bottom: 25px;
     text-align: left;
-    max-width: 500px;
+    width: 500px;
 }
 
-.about-me p {
+.about p {
     line-height: 2;
     color: black;
-    margin: 0 auto;
+    margin: 0 125px;
     font-size: 20px;
     text-align: left;
     width: 83%;
 }
 
-
 .container {
     display: flex;
     flex-wrap: wrap;
-}
-
-.container img {
-    width: auto;
-    height: 180px;
-    margin: 20px;
-    padding: 5px 5px;
-    border-radius: 15px;
-    background-color: var(--secondary-color);
 }
 
 .card-container {
@@ -166,8 +160,17 @@ a:link {
     align-items: flex-end;
 }
 
+.card-feature {
+    height: 150px;
+    width: 920px;
+    margin: .5em;
+    border: 5px solid var(--secondary-color);
+    display: flex;
+    align-items: flex-end;
+}
+
 .horiseon {
-    background-image: url(./images/Horiseon.png);
+    background-image: url(./images/horiseon.png);
 }
 
 .run-buddy {
@@ -178,10 +181,29 @@ a:link {
     background-image: url(./images/comingsoon.png);
 }
 
+.project-name {
+    color: var(--tertiary-color);
+    text-decoration: none;
+    font-size: 20px;
+    background-color: var(--primary-color);
+}
+
 .source {
-    display: flex;
-    flex-wrap: wrap;
-    width: 200px;
+    width: 220px;
+    background-color: palevioletred;
+    border-radius: 15px;
+    margin: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.source img {
+    width: auto;
+    height: 180px;
+    margin: 20px;
+    padding: 5px 5px;
+    border-radius: 15px;
+    background-color: var(--secondary-color);
 }
 
 .flex-row {
@@ -189,23 +211,8 @@ a:link {
     padding-bottom: 35px;
 }
 
-@media screen and (max-width: 1150px) {
-.flex-row {
-    flex-direction: column;
-}
 
-.contact {
-    flex-direction: column;
- }
-
-.source {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-}
-}
-
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1165px) {
 header {
     padding-bottom: 0;
     justify-content: center;
@@ -232,29 +239,126 @@ footer h2 {
     width: 100%;
 }
 
-.source {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
+.flex-row {
+    flex-direction: column;
 }
 
+.welcome {
+    display: none;
+}
+
+.main-body {
+    font-size: smaller;
+}
+
+.heading {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.heading-max {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.about p {
+    text-align: left;
+    justify-content: center;
+    width: 90%;
+    font-size: 24px;
+    margin: 20px;
+    width: 800px;
+}
+
+.container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-feature {
+    max-width: 450px;
+}
+
+.source {
+    margin-top: 20px;
+    max-width: 180px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.source img {
+    display: none;
+}
+
+}
+
+@media screen and (max-width: 980px) {
+.about p {
+    text-align: left;
+    justify-content: left;
+    width: 90%;
+    font-size: 24px;
+    margin: 20px;
+    width: 750px;
+    }
+
+.container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    width: 90%;
+}
+
+.card-feature {
+     max-width: 450px;
+}
 }
 
 @media screen and (max-width: 768px) {
-section {
-    padding: 30px 15px;
+.about p {
+    text-align: left;
+    justify-content: center;
+    width: 90%;
+    font-size: 15px;
+    margin: 20px;
+    width: 400px;
 }
 
-.section-title h2 {
-    flex: 1 100%;
-    text-align: center;
+.container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    width: 300px;
 }
 
+.card-container {
+    width: 250px;
+}
+
+.card-feature {
+    max-width: 250px;
+}
+
+.source {
+    flex-direction: column;
+}
 }
 
 @media screen and (max-width: 575px) {
+.about p {
+    text-align: left;
+    justify-content: center;
+    width: 90%;
+    font-size: 12px;
+    margin: 20px;
+    max-width: 325px;
+}
+}
 
-.section-title {
-    width: 95%;
-}
-}
