@@ -24,7 +24,7 @@ https://hartsfieldt.github.io/Tharts-collection/
 
 https://github.com/hartsfieldt/Tharts-collection
 
-## Screenshots
+## Screencastify
 
 https://drive.google.com/file/d/1aHPgEEbYBqIAnqPsRTv31WfgUvz7w-Ny/preview
 
