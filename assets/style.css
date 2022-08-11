@@ -314,6 +314,10 @@ footer {
     display: none;
 }
 
+.horiseon {
+    background-image: url(./images/horiseon.png);
+}
+
 }
 
 @media screen and (max-width: 980px) {
@@ -367,6 +371,9 @@ footer {
     width: 90%;
 }
 
+.horiseon {
+    background-image: url(./images/horiseon.png);
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -438,6 +445,10 @@ footer {
     flex-direction: column;
 }
 
+.horiseon {
+    background-image: url(./images/horiseon.png);
+}
+
 }
 
 @media screen and (max-width: 575px)  {
@@ -505,6 +516,10 @@ header nav ul {
     margin-top: 20px;
     width: 40%;
     justify-content: center;
+}
+
+.horiseon {
+    background-image: url(./images/horiseon.png);
 }
 
 }
