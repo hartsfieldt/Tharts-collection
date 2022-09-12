@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #2a607c;
+    --secondary-color:  #3eb5fa;
+    --tertiary-color: white;
+    --quaternary-color: #001845;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.item img{
+    width: 225x;
+    height: 250px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: var(--quaternary-color)
+}
+
+.slick-initialized .slick-slide {
+    width: 336px;
+    height: 410px;
+}
+
+
+
+
