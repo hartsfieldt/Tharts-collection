@@ -15,20 +15,7 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.item img{
-    width: 225x;
-    height: 250px;
+footer {
+background-color: var(--quaternary-color);
 }
-
-.slick-prev:before, .slick-next:before {
-    color: var(--quaternary-color)
-}
-
-.slick-initialized .slick-slide {
-    width: 336px;
-    height: 410px;
-}
-
-
-
 
