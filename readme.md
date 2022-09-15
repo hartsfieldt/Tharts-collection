@@ -1,6 +1,7 @@
 # Personal Portfolio
 
-<img src="./assets/images/screenshot.png" alt="screenshot of the website" height="300px"/>
+<img src="./assets/images/screenshot.png" alt="screenshot of the website version 1" height="300px"/>
+<img src="./assets/images/secondversion.png" alt="screenshot of the website version 2" height="300px"/>
 
 ## Purpose
 
