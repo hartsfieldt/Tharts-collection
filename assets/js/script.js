@@ -13,14 +13,25 @@ var x = setInterval(function() {
   }
 }, 1000);
 
+document.addEventListener('DOMContentLoaded', () => {
+  (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+    const $notification = $delete.parentNode;
+
+    $delete.addEventListener('click', () => {
+      $notification.parentNode.removeChild($notification);
+    });
+  });
+});
+
+
 $(".logo-slider").slick({
     dots: true,
     infinite: true,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 4,
-    mobileFirst: true,
-    adaptiveHeight: true,
+    // mobileFirst: true,
+    // adaptiveHeight: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -48,13 +59,4 @@ $(".logo-slider").slick({
     ]
   });
 
-  document.addEventListener('DOMContentLoaded', () => {
-    (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
-      const $notification = $delete.parentNode;
-
-      $delete.addEventListener('click', () => {
-        $notification.parentNode.removeChild($notification);
-      });
-    });
-  });
 
